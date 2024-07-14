@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <div className=" text-3xl font-bold text-pink-500 ">NYKAA</div>
+          <div className=" text-3xl font-bold text-pink-500 "><img className='h-8 w-auto' src='/images/NykaaLogo.png'/></div>
 
           {/* Navigation for larger screens */}
           <nav className="hidden md:flex space-x-6 pr-60">
