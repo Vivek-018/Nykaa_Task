@@ -10,7 +10,7 @@ const TopBanner = () => {
   };
 
   return (
-    <div className="bg-pink-400 text-white py-1 pr-32  flex justify-end items-center space-x-4 text-sm h-[45px] ">
+    <div className="bg-pink-400 text-white py-1 pr-32 hidden  md:flex justify-end items-center space-x-4 text-sm h-[45px] ">
       <div className="pr-80">
         <PopUpMessage message="BEAUTY BONANZA Get Your Amazing Deals!" />
       </div>
