@@ -1,0 +1,22 @@
+/* carousel.css */
+.slick-prev,
+.slick-next {
+  width: 80px; /* Adjust the width as needed */
+  height: 80px; /* Adjust the height as needed */
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 60px; /* Adjust the icon size as needed */
+  color: rgb(242, 230, 230); /* Change color if needed */
+ 
+}
+
+.slick-prev {
+  left: -45px; /* Adjust position if needed */
+}
+
+.slick-next {
+  right: -45px; /* Adjust position if needed */
+}
